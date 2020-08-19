@@ -41,11 +41,11 @@
 
 			>
 
-				<a href="spiderman.html">
+				<a href="contacts.html">
 
 					<div class="divHeading" id="img1Heading">
 
-						CONTACT 
+						About Us/Contact Us 
 
 					</div>
 
@@ -65,7 +65,7 @@
 			onmouseout="document.getElementById('img2Heading').style.backgroundColor = '#202020'"
 			>
 
-				<a href="ironman.html">
+				<a href="outreach.html">
 
 					<div class="divHeading" id="img2Heading">
 
@@ -90,7 +90,7 @@
 
 			>
 
-				<a href="captainmarvel.html">
+				<a href="whatsftc.html">
 
 					<div class="divHeading" id="img3Heading">
 
@@ -131,9 +131,9 @@
 
 	</main>
 
-
 </body>
-
 </html>
+
+
 
 
