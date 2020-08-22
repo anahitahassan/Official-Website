@@ -1,130 +1,70 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>FTC Dream Machines: What's FTC</title>
-	<link rel="stylesheet" type="text/css" href="myStyle.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<script type="text/javascript">
-		
-
 		var i=1;
 		function changeImage(){
 			if(i==1){
 				document.getElementById("sm").src="https://uploads-ssl.webflow.com/5d4868dce260e32178361040/5d81014571af816587868d3d_FTC.png";
 				i=2;
-
 			}
 			else if(i==2){
 				document.getElementById("sm").src="https://longislandweekly.com/wp-content/uploads/2019/02/FTC-championship-photo.jpg";
 				i=3;
-
 			}
-
 			else if(i==3){
 				document.getElementById("sm").src="https://i0.wp.com/njstempathways.org/wp-content/uploads/2020/01/DSCF5553.jpg?fit=4608%2C2592&ssl=1";
 				i=4;
-
 			}
 			else if(i==4){
 				document.getElementById("sm").src="https://s.hdnux.com/photos/01/10/06/22/18900106/3/920x920.jpg";
 				i=5;
-
 			}
 			else if(i==5){
 				document.getElementById("sm").src="https://www.qualcomm.com/sites/ember/files/styles/optimize/public/blog/managed-images/the-kit-rover-image-4_sized.jpg?itok=UFieP3pV";
 				i=1;
-
 			}
-
-
-
-
 		}
-
-
 		function startTime(){
 			var timer = setInterval("changeImage()",10000);
 		}
-
-
-
-
 	</script>
-
 </head>
 
 <body onload="startTime()">
-
 	<main>
-
 		<header>
-
 			<h2>
-
 				WHAT'S FTC?
-
 			</h2>
-
 		</header>
 
-
 		<section>
-
 			<img src="https://uploads-ssl.webflow.com/5d4868dce260e32178361040/5d81014571af816587868d3d_FTC.png" style="width: 100%;" id="sm">
-
 		</section>
-
-
 		<section style="text-align: justify;">
-
 			<p>
-
 				What is FTC? 
-FTC is a tech challenge created by FIRST (For Inspiration and Recognition of Science and Technology). There are 3 rounds:the qualifying, state, and world competitions. Students form teams, which build and program robots to compete against other teams. The team contains students from grades seven to twelve. Once their robots are finished they compete in a match which includes a series of tasks for which they are given approximately 2 minutes and 30 seconds to complete. The time they are given includes a 30 second autonomous period and around 2 minutes of driver controlled period to do certain tasks.
-FTC is one of the competition categories in Dean Kamen's FIRST organization. Thanks to FIRST and FTC, students not only improve and increase their knowledge in STEM subjects but also on life skills such as fundraising, teamwork, and time management.
-
-
+				FTC is a tech challenge created by FIRST (For Inspiration and Recognition of Science and Technology). There are 3 rounds:the qualifying, state, and world competitions. Students form teams, which build and program robots to compete against other teams. The team contains students from grades seven to twelve. Once their robots are finished they compete in a match which includes a series of tasks for which they are given approximately 2 minutes and 30 seconds to complete. The time they are given includes a 30 second autonomous period and around 2 minutes of driver controlled period to do certain tasks.
+				FTC is one of the competition categories in Dean Kamen's FIRST organization. Thanks to FIRST and FTC, students not only improve and increase their knowledge in STEM subjects but also on life skills such as fundraising, teamwork, and time management.
 			</p>
-
 		</section>
-
-
 		<section style="margin-top: 30px;">
-
 			<p class="btn">
-
 				<a href="index.html" class="btnLink">BACK</a>
-
 			</p>
-
 		</section>
-
 
 		<footer>
-
-			
-
 			<p>
-
 				&copy; Copyright
-
 			</p>
-
 		</footer>
-
-		
-
-
-
-
 	</main>
-
-
 </body>
-
 </html>
-
-
