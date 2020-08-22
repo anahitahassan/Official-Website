@@ -7,6 +7,7 @@ body{
 	background-color: #000000;
 	color:#ffffff;
 	font-size: 1.2rem;
+	text-align: center;
 }
 main{
 	width:90%;
@@ -90,6 +91,12 @@ ul{
 	padding: 10px;
 	background-color: #add8e6;
 	border-radius: 10px;
+}
+.table-of-team-pics{
+	text-align: center;
+}
+.team-image{
+	block-size: 200px;
 }
 
 
