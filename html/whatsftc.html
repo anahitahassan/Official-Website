@@ -1,26 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>FTC Dream Machines: What's FTC</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<script type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTC Dream Machines: What's FTC</title>
+    <link rel="stylesheet" href="../css/whatsftc-style.css">
+    <script src="script.js" type="text/javascript"></script>
 </head>
-
-<body onload="startTime()">
-	<main>
-		<header>
+<body>
+    <main>
+        <header>
 			<h2>
 				WHAT'S FTC?
 			</h2>
 		</header>
+        <br><br><br>
+        <div class="slideshow">
+            <div class="ss-container">
+                <div class="mySlides fade">
+                    <img src="../images/slideshow-images/ftc-slide1.jpg" class="pics"/>
+                </div>
+                <div class="mySlides fade">
+                    <img src="../images/slideshow-images/ftc-slide2.jpg" class="pics"/>
+                </div>
+                <div class="mySlides fade">
+                    <img src="../images/slideshow-images/ftc-slide3.jpg" class="pics"/>
+                </div>
+                <div class="mySlides fade">
+                    <img src="../images/slideshow-images/ftc-slide4.jpg" class="pics"/>
+                </div>
+                <div class="mySlides fade">
+                    <img src="../images/slideshow-images/ftc-slide5.jpg" class="pics"/>
+                </div>
+            </div>
+        </div>
+        <!--    Putting in the click dots   -->
+        <div style="text-align:center">     
+            <span  class="dot" onclick="currentSlide(1)"></span>
+            <span  class="dot" onclick="currentSlide(2)"></span>
+            <span  class="dot" onclick="currentSlide(3)"></span>
+            <span  class="dot" onclick="currentSlide(4)"></span>
+            <span  class="dot" onclick="currentSlide(5)"></span>
+        </div>
 
-		<section>
-			<br>
-			<img src="https://uploads-ssl.webflow.com/5d4868dce260e32178361040/5d81014571af816587868d3d_FTC.png" style="width: 70%" id="sm">
-		</section>
-		<section style="text-align: justify;">
+        <script src="script.js"></script>
+
+        <section style="text-align: justify;">
 			<p>
 				What is FTC? 
 				FTC is a tech challenge created by FIRST (For Inspiration and Recognition of Science and Technology). There are 3 rounds:the qualifying, state, and world competitions. Students form teams, which build and program robots to compete against other teams. The team contains students from grades seven to twelve. Once their robots are finished they compete in a match which includes a series of tasks for which they are given approximately 2 minutes and 30 seconds to complete. The time they are given includes a 30 second autonomous period and around 2 minutes of driver controlled period to do certain tasks.
@@ -38,6 +63,7 @@
 				&copy; Copyright
 			</p>
 		</footer>
-	</main>
+
+    </main>
 </body>
 </html>
